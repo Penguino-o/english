@@ -5,6 +5,10 @@
 - [x] Keep navigation links useful at small and large viewport sizes; use section anchors for the feature and game content.
 - [x] Do not reuse the reference site's source code or verbatim marketing copy. Do not send users to the reference bot's real invite; make the prototype's invite state clear.
 
+## Original visual-style study and restyle
+- [x] Study the reference's rendered design and publicly served style sheet before changing the site's look; identify the typography, palette, layout, surfaces and responsive behavior that create its clean, smooth feel.
+- [x] Apply one coherent, responsive visual style that closely matches the reference's aesthetic while implementing this page's CSS and hero artwork independently rather than transplanting the reference's source code.
+
 ## Product feature modules and dashboard visual
 - [x] Present the bot's modules and configurable dashboard through original interface-style visuals.
 - [x] Explain welcome-message customization and member onboarding in a dedicated section.

@@ -143,6 +143,7 @@ export default function Home() {
           </div>
           <div className="hero-art" aria-label="Illustration of a welcome message in a chat server">
             <div className="art-orbit art-orbit--one" /><div className="art-orbit art-orbit--two" />
+            <div className="hero-mascot" aria-hidden="true"><i /><i /><b /></div>
             <div className="sticker sticker--sun">✦</div><div className="sticker sticker--smile">☺</div>
             <div className="server-card">
               <div className="server-sidebar"><div className="server-avatar">cc</div><div className="server-name">Cozy Corner <ChevronDown size={12} /></div><div className="side-caption">YOUR CHANNELS</div><div className="side-item">⌂ &nbsp; welcome</div><div className="side-item side-item--active"># &nbsp; say-hello</div><div className="side-item"># &nbsp; role-picks</div><div className="side-item"># &nbsp; general</div><div className="side-user"><span className="avatar avatar--mint">M</span><div><b>{memberName || "Mira"}</b><small>ready to chat</small></div><span className="online-dot" /></div></div>
