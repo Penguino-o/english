@@ -9,6 +9,11 @@
 - [x] Study the reference's rendered design and publicly served style sheet before changing the site's look; identify the typography, palette, layout, surfaces and responsive behavior that create its clean, smooth feel.
 - [x] Apply one coherent, responsive visual style that closely matches the reference's aesthetic while implementing this page's CSS and hero artwork independently rather than transplanting the reference's source code.
 
+## Dark glass palette and motion study
+- [x] Inspect mee7.me's public CSS motion patterns before restyling: hover/press response, highlight sweeps, scroll-linked accents, transient feedback effects, and reduced-motion handling.
+- [x] Restyle the full landing page in the requested black, gray, pink, and purple palette with layered dark glass, restrained glow, and consistent readable contrast.
+- [x] Implement original CSS equivalents for the studied motion patterns, keeping the page responsive, keyboard-accessible, and calm for users who prefer reduced motion.
+
 ## Product feature modules and dashboard visual
 - [x] Present the bot's modules and configurable dashboard through original interface-style visuals.
 - [x] Explain welcome-message customization and member onboarding in a dedicated section.
