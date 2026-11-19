@@ -1,14 +1,11 @@
-# Community Bot Landing Page
+# UNFOLD — A presentation in motion
 
-React / Express / tRPC / Drizzle starter, adapted from the Sandbox web-db-user template.
+A desktop-first, scroll-driven presentation canvas. Each chapter is authored as React/HTML and styled with CSS; there are no slide screenshots or exported-image panels. The current page is a topic-neutral shell awaiting the presentation title and content.
 
-- `pnpm dev`: development server; honors `PORT` (default 3000).
-- `pnpm build` / `pnpm start`: build and serve `dist/index.js` and `dist/public/`.
-- `pnpm db:migrate`: apply checked-in migrations. `pnpm db:push`: generate and apply new schema changes.
-- `pnpm check` / `pnpm test`: types and application tests.
+## Development
 
-Start with the Webdev skill's default-template guide. Platform login, storage, payments and service contracts live in its shared references; read the relevant capability before extending its helper.
+- `pnpm dev:static` starts the Vite preview on port 3000 (or the configured `PORT`).
+- `pnpm build:static` builds the production static site.
+- `pnpm check` runs the TypeScript check.
 
-`server/_core/publicConfig.ts` exposes only named public runtime values. Private keys stay server-side. The platform serves managed `/manus-storage/` assets; the application does not register a second proxy.
-
-Platform configuration is readable and editable through `webdev.config`. Default settings are initial values, not enforced constraints. The agent may modify the files, commands and configuration or follow the flexible guide for another stack.
+The established visual system uses dark glass surfaces, pink-violet lighting, live typography and motion that follows the viewer's scroll. Reduced-motion preferences are respected.

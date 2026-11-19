@@ -1,28 +1,15 @@
 # ToDo
 
-## Responsive landing page, navigation and bot invitation
-- [x] Create a responsive landing page with clear navigation, an introductory pitch and a prominent add-bot call to action.
-- [x] Keep navigation links useful at small and large viewport sizes; use section anchors for the feature and game content.
-- [x] Do not reuse the reference site's source code or verbatim marketing copy. Do not send users to the reference bot's real invite; make the prototype's invite state clear.
+## Neutral presentation identity
+- [x] Change the page's title, header wordmark and browser metadata to a temporary neutral presentation name, “UNFOLD,” until the presentation's final title is supplied.
+- [x] Remove the bot-face mark and every bot-specific logo, favicon, project image and reference note; use a newly made abstract fold mark instead.
+- [x] Remove all bot-related copy, product features, mock interfaces, FAQ entries, calls to action, links and newsletter content from the current website.
 
-## Original visual-style study and restyle
-- [x] Study the reference's rendered design and publicly served style sheet before changing the site's look; identify the typography, palette, layout, surfaces and responsive behavior that create its clean, smooth feel.
-- [x] Apply one coherent, responsive visual style that closely matches the reference's aesthetic while implementing this page's CSS and hero artwork independently rather than transplanting the reference's source code.
+## Web-native scroll presentation shell
+- [x] Make the site a desktop-first, scroll-through presentation with authored HTML/React sections and CSS artwork; do not represent chapters as exported slide images or screenshots.
+- [x] Create a temporary, topic-neutral introduction that clearly invites the presentation's real title and content later rather than inventing them.
+- [x] Give each chapter a smooth entrance and exit as the viewer scrolls, keep useful progress and anchor navigation, and preserve a responsive mobile layout and reduced-motion behavior.
 
-## Dark glass palette and motion study
-- [x] Inspect mee7.me's public CSS motion patterns before restyling: hover/press response, highlight sweeps, scroll-linked accents, transient feedback effects, and reduced-motion handling.
-- [x] Restyle the full landing page in the requested black, gray, pink, and purple palette with layered dark glass, restrained glow, and consistent readable contrast.
-- [x] Implement original CSS equivalents for the studied motion patterns, keeping the page responsive, keyboard-accessible, and calm for users who prefer reduced motion.
-
-## Product feature modules and dashboard visual
-- [x] Present the bot's modules and configurable dashboard through original interface-style visuals.
-- [x] Explain welcome-message customization and member onboarding in a dedicated section.
-- [x] Describe spam and scam handling, safeguards and case logging in a dedicated moderation section.
-- [x] Cover member progression, rewards, giveaways and social features.
-- [x] Introduce a range of chat-based games in a dedicated games section.
-- [x] Illustrate scheduled messages, channel upkeep and custom commands in an automation section.
-- [x] Explain access permissions and command usage settings in a dedicated controls section.
-
-## Footer and newsletter interface
-- [x] Include useful navigation and legal links in the footer.
-- [x] Include an original newsletter signup interface with clear email validation, consent choices and a truthful submission state; do not imply an email has actually been subscribed when no backend exists.
+## Preserve the established visual system
+- [x] Keep the existing dark black/charcoal, pink and purple glass style, including the rounded translucent header, typography, glow, depth, gradients, and easing character.
+- [x] Retain and adapt the independent CSS transition, hover sheen and scroll-driven motion system to the web-native chapter content without bringing back bot imagery or text.

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="UNFOLD mark">
+  <defs>
+    <linearGradient id="fold" x1="4" y1="3" x2="60" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFA8DF"/>
+      <stop offset=".52" stop-color="#E879CC"/>
+      <stop offset="1" stop-color="#A888F5"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="url(#fold)" stroke="#F8E8FF" stroke-opacity=".65" stroke-width="1.4"/>
+  <path d="M19 17.5h23a3 3 0 0 1 3 3v8.2L30.6 43.1H22a3 3 0 0 1-3-3z" fill="none" stroke="#2B1837" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6"/>
+  <path d="M45 28.7v10.4a3 3 0 0 1-3 3h-11.4M23 25.5h13M23 32h8" fill="none" stroke="#2B1837" stroke-linecap="round" stroke-width="2.4"/>
+  <path d="m36 38.5 7.8-7.8" fill="none" stroke="#FCEEFF" stroke-linecap="round" stroke-width="2"/>
+</svg>
