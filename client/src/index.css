@@ -225,7 +225,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid #ff9ade; outline-offs
   100% { clip-path: inset(0 round 16px); transform: none; }
 }
 @supports (animation-timeline: view()) {
-  .lesson-grid .layer-in, .sentence-grid .layer-in { animation-name: explanation-arrival; }
+  .lesson-grid .layer-in, .sentence-grid .layer-in, .presenter-grid .layer-in { animation-name: explanation-arrival; }
 }
 
 @media (max-width: 760px) {
