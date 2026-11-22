@@ -1,6 +1,6 @@
-# UNFOLD — A presentation in motion
+# English Made Easy
 
-A desktop-first, scroll-driven presentation canvas. Each chapter is authored as React/HTML and styled with CSS; there are no slide screenshots or exported-image panels. The current page is a topic-neutral shell awaiting the presentation title and content.
+A bilingual, beginner-friendly field guide to Present Simple, Past Simple, Future Simple, and sentence types. All twelve source pages are recreated as editable React/HTML/CSS content with interactive practice and scroll-driven layered motion; there are no slide screenshots.
 
 ## Development
 
@@ -8,4 +8,4 @@ A desktop-first, scroll-driven presentation canvas. Each chapter is authored as 
 - `pnpm build:static` builds the production static site.
 - `pnpm check` runs the TypeScript check.
 
-The established visual system uses dark glass surfaces, pink-violet lighting, live typography and motion that follows the viewer's scroll. Reduced-motion preferences are respected.
+The visual system uses charcoal glass, rose and violet lighting, an inset luminous lesson frame, bilingual English/Arabic typography, and layered view-timeline transitions. Reduced-motion preferences are respected.

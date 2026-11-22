@@ -1,15 +1,22 @@
 # ToDo
 
-## Neutral presentation identity
-- [x] Change the page's title, header wordmark and browser metadata to a temporary neutral presentation name, “UNFOLD,” until the presentation's final title is supplied.
-- [x] Remove the bot-face mark and every bot-specific logo, favicon, project image and reference note; use a newly made abstract fold mark instead.
-- [x] Remove all bot-related copy, product features, mock interfaces, FAQ entries, calls to action, links and newsletter content from the current website.
+## English Made Easy identity and presentation shell
+- [ ] Replace the temporary UNFOLD name and placeholder copy with the supplied “English Made Easy” presentation identity in the site header, browser title, description, route metadata, README, and closing footer. Preserve the abstract folded-page mark; remove placeholder-story language.
+- [ ] Keep the established dark black/charcoal glass visual style and the translucent pink/purple-lit top header bar.
+- [ ] Make the source’s 12-page sequence a scroll-driven educational website, with lesson text, examples, quizzes, recap, and presenter credits built from editable React/HTML/CSS content—not slide images or screenshots.
+- [ ] Make the presentation exceptionally smooth and aesthetic, with distinctive layered entrances and exits rather than conventional fade-only transitions; use adjustable layers and respect reduced-motion preferences.
+- [ ] Keep the site responsive and readable on desktop and mobile, including navigation/progress and touch-friendly controls.
 
-## Web-native scroll presentation shell
-- [x] Make the site a desktop-first, scroll-through presentation with authored HTML/React sections and CSS artwork; do not represent chapters as exported slide images or screenshots.
-- [x] Create a temporary, topic-neutral introduction that clearly invites the presentation's real title and content later rather than inventing them.
-- [x] Give each chapter a smooth entrance and exit as the viewer scrolls, keep useful progress and anchor navigation, and preserve a responsive mobile layout and reduced-motion behavior.
+## Bilingual lessons, practice, recap, and credits
+- [ ] Preserve the cover’s title, Arabic title, tense/sentence-type topics, and beginner-friendly framing.
+- [ ] Include the Present Simple meaning, singular/plural rules, keywords, lecture and daily-life examples, bilingual tip, and all five quiz questions with answer choices.
+- [ ] Include the Past Simple meaning, regular formula, keywords, lecture examples, irregular verbs (`send → sent`, `do → did`, `go → went`), bilingual tip, and all five quiz questions with answer choices.
+- [ ] Include the Future Simple meaning, formula, keywords, lecture/daily-life examples, bilingual tip, and all five quiz questions with answer choices.
+- [ ] Include all four sentence types—Simple, Compound, Complex, and Compound-Complex—with their definitions, connectors, examples, bilingual text, and tip; include all five sentence-types quiz questions and answer choices.
+- [ ] Include the final bilingual tense and sentence-type summary, the three true/false recap statements, and the reminder that `s` is used only with he/she/it in Present Simple.
+- [ ] Include all six presenter names and roles from the source: George Magdy, Ahmed Fayez, Mahmoud Abdelrahman, Hamed Mohamed, Ahmed Osama, and Ahmed Gamal.
+- [ ] Render all Arabic with correct right-to-left direction and appropriate language metadata. Add immediate, changeable answer feedback to quizzes without losing the source’s questions.
+- [ ] Where the source mislabels the compound-complex quiz example, state the technically correct classification and briefly clarify why rather than reinforcing an incorrect grammar rule.
 
-## Preserve the established visual system
-- [x] Keep the existing dark black/charcoal, pink and purple glass style, including the rounded translucent header, typography, glow, depth, gradients, and easing character.
-- [x] Retain and adapt the independent CSS transition, hover sheen and scroll-driven motion system to the web-native chapter content without bringing back bot imagery or text.
+## Delivery evidence
+- [ ] Confirm TypeScript and production build succeed; inspect the site in desktop and mobile Preview; check the home-route title/metadata and Preview readiness; save the completed website as a canonical checkpoint without publishing unless asked.
