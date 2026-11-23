@@ -39,6 +39,8 @@ jobs:
         run: pnpm build:static
         env:
           VITE_BASE_PATH: /english/
+      - name: Add 404 fallback page
+        run: cp dist/public/index.html dist/public/404.html
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
